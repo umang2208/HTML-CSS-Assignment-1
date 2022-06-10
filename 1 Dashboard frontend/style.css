@@ -13,6 +13,8 @@ p{
     box-sizing: border-box;
     display: flex;
 }
+
+/* side bar css */
 .navbar-container{
     width: 5%;
     min-height: 100vh;
@@ -50,12 +52,17 @@ p{
     background-color: #FFD700;
     color: black;
 }
+
+/* end of sidebar css */
+/* start of container */
 .content-container{
     width: 95%;
     min-height: 100vh;
     background-color: rgba(231, 227, 227, 0.856);
     box-sizing: border-box;
 }
+
+/* start of Navbar  */
 .content-container nav{
     width: 100%;
     height: fit-content;
@@ -92,6 +99,7 @@ p{
 fa-caret-down{
     margin: 0;
 }
+/* end of navBar */
 
 .dashboard-container{
     width: 100%;
